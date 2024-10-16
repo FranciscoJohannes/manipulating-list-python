@@ -1,0 +1,33 @@
+# Manipulating List in Python
+# Francisco, Johannes D.
+
+#Accessing List Elements
+iphone = ["IP XR", "IP13 pro max", "IP15 pro", "IP16 pro"]
+
+#output is going to be IP13 pro max
+print("Accessing List Elements Output:""\n", iphone[1])
+print("\n")
+
+#Slicing a List
+iphone = ["IP XR", "IP13 pro max", "IP15 pro", "IP16 pro"]
+
+#output is going to be IP13 pro max, IP15 pro, and IP16 pro 
+#since i've cut one in the parameter
+print("Slicing a List Output:""\n", iphone[1:4])
+print("\n")
+
+#Modifying List Elements
+laptop = ["Dell", "ASUS", "Samsung", "Lenovo"]
+laptop[0] = "HP";
+
+#output: Instead of Dell it would be change into HP
+#since the number of parameter is located in Dell
+print("Modifying List Elements Output:""\n", laptop)
+
+#Removing Elements from a list
+name = ["Joel", "Lloyd", "Joshua", "Mic", "Charles"]
+name.remove("Charles");
+print("\n")
+
+#output: Charles will be remove from the list
+print("Removing Elements from a list Output:""\n", name)
